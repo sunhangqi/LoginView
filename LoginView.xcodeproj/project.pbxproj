@@ -14,6 +14,7 @@
 		BFB15CA32506F16000F34262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB15CA22506F16000F34262 /* Assets.xcassets */; };
 		BFB15CA62506F16000F34262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB15CA42506F16000F34262 /* LaunchScreen.storyboard */; };
 		BFB15CA92506F16000F34262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB15CA82506F16000F34262 /* main.m */; };
+		BFB15CB42506F1CF00F34262 /* HQRegisController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB15CB32506F1CF00F34262 /* HQRegisController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		BFB15CA52506F16000F34262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB15CA72506F16000F34262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB15CA82506F16000F34262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFB15CB22506F1CF00F34262 /* HQRegisController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQRegisController.h; sourceTree = "<group>"; };
+		BFB15CB32506F1CF00F34262 /* HQRegisController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQRegisController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				BFB15CA42506F16000F34262 /* LaunchScreen.storyboard */,
 				BFB15CA72506F16000F34262 /* Info.plist */,
 				BFB15CA82506F16000F34262 /* main.m */,
+				BFB15CB22506F1CF00F34262 /* HQRegisController.h */,
+				BFB15CB32506F1CF00F34262 /* HQRegisController.m */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 		BFB15C8B2506F15E00F34262 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HQ;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = one;
 				TargetAttributes = {
@@ -150,6 +156,7 @@
 				BFB15C982506F15E00F34262 /* AppDelegate.m in Sources */,
 				BFB15CA92506F16000F34262 /* main.m in Sources */,
 				BFB15C9B2506F15F00F34262 /* SceneDelegate.m in Sources */,
+				BFB15CB42506F1CF00F34262 /* HQRegisController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
